@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>VISHERB</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="จุดสิ้นสุดของยุคความดันโลหิตสูงและหลอดเลือด เมื่อได้มีการค้นพบวิธีการที่จะล้างหลอดเลือดแดงและบรรเทาอาการความดันโลหิตสูง ให้เป็นปกติใน 28 วัน">
+    <style>a{text-decoration: none;}@font-face{font-family:'FontAwesome';src:url(./assets/fontawesome-webfont.eot);src:url(./assets/fontawesome-webfont.eot) format('embedded-opentype'),url(./assets/fontawesome-webfont.woff2) format('woff2'),url(./assets/fontawesome-webfont.woff) format('woff'),url(./assets/fontawesome-webfont.ttf) format('truetype'),url(./assets/fontawesome-webfont.svg) format('svg')}html,body{margin:0;padding:0}body{font-size:18px;line-height: 1.6;background:#f4f4f4;font-family:Arial}header{position:relative;background:#e83a30;color:#FFF;z-index:99;padding:10px 0;border-bottom:1px solid rgba(141,144,149,.15)}a{font-weight:700}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.wrapper{max-width:600px;min-width:320px;margin:0 auto;position:relative;background:#fff}.logo{position:relative;transform:none;text-align:center;margin:0 auto}.logo img{border:0;display:inline-block;vertical-align:middle}.logo p{display:inline-block;vertical-align:middle;text-align:center;color:#FFF;margin:0;font-size:2rem;font-weight:700}.mobileMenu{display:block;color:#000;font-size:30px;position:absolute;top:50%;transform:translateY(-50%);text-align:left;padding-left:20px}.fa-bars:before{content:"\f0c9"}.fa-search:before{content:"\f002"}.px{padding:0 10px}section{padding:10px 0px;box-sizing:border-box}.s1_title{text-align:left;color:red;font-size:25px;margin:0;line-height: 1.4;padding:0 10px;margin-bottom:10px}.img_wrapper img{display:block;margin:0 auto;max-width:100%}.text{padding:0 10px}.answer{position:relative;border:10px solid #b3dae2;padding:20px;margin:20px auto;color:#656363;font-style:italic}.answer_date,.answer_reply{width:50%;display:inline-block}.answer_date span{display:table-cell;vertical-align:middle}.answer_reply{text-align:right}.text_bcg{width:100%;background:#aeece2;border:1px solid #8fd3c7;text-align:center;margin-bottom:10px;margin-top:10px}.title_table{color:#328ec1;padding:10px 0;font-size:17px;margin:0}.content__graphblock{box-sizing:border-box;display:table;width:100%;padding:10px;font-size:0;border:1px solid #666}.content__graphLabel{box-sizing:border-box;display:inline-block;vertical-align:top;width:35%;margin:5px 0;font-size:13px;color:#999;padding:10px 0;font-weight:700}.content__graphScale{display:inline-block;vertical-align:top;width:65%;height:32px;margin:5px 0;background:#eee}.content__graphScaleCount{display:inline-block;vertical-align:middle;height:100%;background:#38761d}._1 .content__graphScaleCount{width:23%}.content__graphScaleNumber{display:inline-block;vertical-align:middle;margin:0 0 0 10px;font-size:10px;font-weight:700;color:#38761d}._2 .content__graphScaleCount{width:67%}._3 .content__graphScaleCount{width:10%}._grey .content__graphScaleCount{background:#666}._grey .content__graphScaleNumber{color:#666}.btn{display: block; margin: 10px auto; text-align: center; font-size: 20px; font-weight: 700; background: #e52d27;background: -webkit-linear-gradient(180deg, #e52d27, #b31217);    background: linear-gradient(180deg, #e52d27, #b31217); color: #fff; padding: 10px; border-radius: 3px;}#facebook{padding:10px;box-sizing:border-box;background:#f6f7f9;margin-top:20px;font-family:Arial}#facebook .writeComment{box-sizing:border-box}ul{list-style:none;padding:0;margin:0}#facebook .writeComment:before,#facebook .writeComment:after{content:'';display:table;clear:both;width:100%}#facebook .avatar{width:32px;height:32px;float:left}#facebook .writeComment .form{box-sizing:border-box;padding-left:40px}.form-input{position:relative}#facebook .writeComment .form .inscription{font-size:10px;color:#ccc}#facebook .writeComment .form input{display:block;padding:7px 5px;border:1px solid #9a9a9a;width:100%;box-sizing:border-box;font-size:14px}input[type="text"],input[type="password"],textarea{padding:0}input,select,button,textarea{margin:0;font-size:100%;border:0;outline:none}.form-input a{position:absolute;left:0;right:0;top:0;bottom:0;cursor:text}#facebook .commentsList .commentItem{box-sizing:border-box;margin:10px 0}#facebook .avatar{width:32px;height:32px;float:left}#facebook .commentsList .commentItem .commentBody{padding-left:40px;font-size:14px;line-height:25px}#facebook .commentsList .commentItem .commentBody .username{color:#3b5998;font-weight:600}#facebook .commentsList .commentItem .commentBody .commentAction a{color:#3b5998;text-decoration:none}#facebook .commentsList .commentItem .commentBody .commentAction .circle{font-size:7px;position:relative;top:-2px;padding:0 5px}#facebook .commentsList .commentItem .commentBody .commentAction .time{color:#ccc}.commentsList a{font-weight:400}footer{background:rgb(128, 9, 1);color:#FFF;text-align:center;font-size: 1rem;padding: 1rem .5rem;}footer img{border:0;display:inline-block;vertical-align:middle}.btn:hover{background: #666;}#facebook .commentsList .commentItem .commentBody img{margin-top: 5px}#facebook .commentsList .commentItem .commentAction{margin-top: -3px;}.form-control{display:block;width:100%;height:calc(1.5em + .75rem + 2px);padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}*,::after,::before{box-sizing:border-box}.form-group{margin-bottom:1rem}input[type="text"], input[type="password"], textarea{    padding: .375rem .75rem;}.priceс{color:#000;position:absolute;width:150px;height:150px;bottom:0;margin:0;right:0;background-size:cover;background-image:url(assets/star.png);text-align: center;}.priceс span{display: block;text-align: center;}.priceс  div{    font-size: 18px; position: absolute;width:100%;top: 50%;transform: translateY(-50%); }form{max-width: 350px;margin: auto;}.price_main{border-bottom:2px solid #d31812;font-size:20px;line-height:0;margin:0}.text .listItems{padding-left:40px;margin:10px 0}.listItems li{line-height:30px!important;list-style-image:url(./assets/tick.png)}.mcontent{text-align:left;border:2px dashed #f44336;border-radius:10px;padding:20px}.mcontent h3{text-transform:uppercase}.boxform{width:100%;margin:0 auto;border:1px solid rgb(219,13,1);padding:20px;border-radius:15px;line-height:1.4;background:#fdfbfb;background:-webkit-linear-gradient( 180deg,#fdfbfb,rgba(240,252,255,1.0));background:linear-gradient( 180deg,#fdfbfb,rgba(240,252,255,1.0))}
+.boxtitle{border:1px solid rgb(219,13,1);padding:20px;border-radius:15px;width:70%;margin:-60px auto 20px;background:#fdfbfb;background:-webkit-linear-gradient(180deg,#fdfbfb,rgba(240,252,255,1.0));background:linear-gradient(180deg,#fdfbfb,rgba(240,252,255,1.0))}
+.boxtitle h3{font-weight:bold!important;text-align:center;margin:9px 0 0!important;font-size:30px!important;line-height:30px!important}
+.old_price{text-align:center;font-size:25px;text-decoration:line-through;font-weight:700}
+.new_price{margin-top:5px;text-align:center;font-weight:700;color:red;font-size:30px}
+.timer{font-size:18px;font-weight:400;margin:12px 0 20px;text-align:center}
+.form_group{padding:10px;display:block;margin:10px auto;border:2px solid grey;border-radius:5px;width:460px;max-width:100%}
+.form_btn{display:block;margin:20px auto;padding:20px;font-size:20px;text-decoration:none;background-color:#de0606;text-align:center;color:#fff!important;border-radius:4px;border:none;cursor:pointer}
+.order_block h2{font-size:22px;text-align:center;font-weight:700;margin-bottom:0}
+.text p{font-family:Arial;margin:0 0 20px;font-size:18px;color:#000}
+.text p.pink-text{color:#0198bd;text-align:center}
+.text p.update{border:1px dotted #000;background:#effff7;padding:4px 9px}
+.text h5{color:#222;margin:8px 0 20px;font-size:21px;line-height:28px}
+.text h5.pink-border-bottom{color:#666;border-bottom:2px solid #0198bd;margin-bottom:15px}
+.header {display: block; padding: 1rem;background-color: rgb(64, 88, 39);color:#000;text-align: center;align-items: center;}
+.header p {margin: 0;line-height: 1.3;}
+.line {background-color: rgb(43,43,43);color:#FFF;display: flex;justify-content: space-between;padding: .78rem .5rem;}
+.author {display: flex;justify-content: space-between;align-items: center;padding: 0 .5rem;margin-top: 1rem;}
+.author svg {width: 25px;height: 25px;}
+.date-social {display: flex;justify-content: space-between;align-items: center;margin-bottom: 1rem;padding: 0 .5rem;}
+.img-fluid {max-width: 100%;height: auto;}
+.box{border: 1px solid #000;padding: 1rem 1rem 0 1rem;margin-bottom: 1rem;}
+.box-warning{background-color: rgb(250, 221, 210);border-style: double;border-color: rgb(232, 48, 140);border-width: 4px;text-align: center;margin-bottom: 1rem;padding: .5rem .5rem 0 .5rem;}
+    </style>
+    <script type="text/javascript" src="./assets/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./assets/dtime.js"></script>
+    <script type="text/javascript" src="./assets/main.js"></script>
+    <script type="text/javascript">function outputDat(t,e){var a=new Date,n=new Date(a.getTime()-864e5*t),l=!1===e?"01,02,03,04,05,06,07,08,09,10,11,12".split(","):"января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря".split(",");return n.getDate(),!1===e?n.getDate()+"."+l[n.getMonth()]+"."+n.getFullYear():n.getDate()+" "+l[n.getMonth()]+" "+n.getFullYear()}$(document).ready(function(){t=setInterval(function(){e-=1;var a=Math.floor(e/60),n=e-60*a;0==a&&0==n&&clearInterval(t),n=n>=10?n:"0"+n,$("#min").html("0"+a),$("#sec").html(n)},1e3);var t,e=540});</script>
+
+    <!-- chèn mã gtag 1 -->
+
+</head>
+<body>
+
+    <!-- chèn mã gtag 2 -->
+
+<div class="wrapper">
+    <div class="content">
+        <div class="header">
+            <img src="./assets/logo.png" width="80" alt="Logo"/>
+            <!-- <span style="margin-left: 1rem; font-size: 1.8rem;line-height: 1.2;">ดูแลสุขภาพด้วยตัวเอง</span> -->
+            <img src="./assets/header.png" alt="Header"/> <br/>
+            <img src="./assets/menu.png" alt="Menu" style="width: 100%;height: auto;"/>
+        </div>
+        <div class="line">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-search"></i>
+        </div>
+        <h3 style="font-size: 1.2rem;padding: 0 1rem;font-weight: normal;">สุขภาพ:&nbsp; ศูนย์วินิจฉัยโรค&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: rgb(132, 132, 132);">มาตรฐาน&nbsp; &nbsp; &nbsp; ผู้เชี่ยวชาญของเรา</span></h3>
+        <hr/>
+        <p style="font-size: .9rem;padding: 0 1rem;margin: 0; font-weight: normal;color: #555;">โฮมเพจ → คู่มือด้านสุขภาพ</p>
+        
+        <section>
+            <h1 class="s1_title"> สถานรักษาและกายภาพบำบัดดวงตาชื่อดังของประเทศไทย เปิดวิสัยทัศน์ใหม่ ให้คนไทย "ดูแลรักษาจอประสาทตาเสื่อมในผู้สูงอายุด้วยตนเองได้โดยไม่ต้องผ่าตัด" </h1>
+            <div class="author">
+                <span style="display: flex;align-items: center;font-weight: bold;"><img src="./assets/author.jpg" alt="author"> &nbsp; มนู โอภาสวงศ์</span>
+                <span style="display: flex;"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 24 24" class="" fill="rgba(33, 183, 216, 1)"> <path d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z"></path> </svg> <span style="margin-left: .5rem;font-size: .9rem;">5.561.123 views</span></span>
+            </div>
+            <div class="date-social">
+                <span style="font-size: .8rem;color: #111;"><script type="text/javascript">dtime_nums(-2, true)</script></span>
+                <img src="./assets/social.png" class="img-fluid" alt="share social">
+            </div>
+            
+            <div class="text">
+                <div class="img_wrapper"><img src="./assets/img/1.png"></div>
+                <p style="padding-top: .5rem;text-align: center;">ตาปวด ตาแดงเป็นอาการแสดงของเชื้อปรสิตเข้าตา</p>
+                <div class="img_wrapper"><img src="./assets/img/2.png"></div>
+                <p style="padding-top: .5rem;text-align: center;">จอประสาทตาเสื่อมและต้อกระจกเป็นโรคที่พบบ่อยในผู้สูงอายุ</p>
+                <div class="img_wrapper"><img src="./assets/img/3.png"></div>
+                <p style="padding-top: .5rem;text-align: center;">ผ่าตัดไม่ใช่วิธีรักษาดีที่สุด</p>
+                <h3 style="text-align: left;color: red;font-size: 1.8rem;">คําเตือน! จอประสาทตาเสื่อมและต้อกระจกมานานอาจจะทำให้ตาบอดถาวรได้</h3>
+                <p><strong>หลายคนอาจจะคิดว่ากาารรักษาตาที่ดีที่สุดคือการผ่าตัด แต่นั่นเป็นวิธีการที่เราถูกปลูกฝังให้มีความเชื่ออย่างนั้นมาตลอด โดยไม่รู้มาก่อนว่ามันมีวิธีการดูแลดวงนี้ได้ โดยไม่ต้องพึ่งการผ่าตัด และไม่ต้องเสี่ยงการติดเชื้อเหมือนกันผ่าตัดได้</strong></p>
+                <p>ในช่วงท้ายปี 2020 ที่ผ่านมามีการตีแผ่เรื่องราวเกี่ยวกับวงการรักษาดวงตาให้กับผู้ป่วยจำนวนมากว่ายาที่ใช้ในการรักษาและวิธีการรักษานั้นล้วนแต่เป็นการสร้างเม็ดเงินให้กับคนรักษามากกว่าการสร้างสุขภาพตาที่ดีในระยะยาวให้กับคนที่มีปัญหา วันนี้เราจึงมาตีแผ่มุมมองเกี่ยวกับวงการนี้ให้คุณได้รับรู้กันให้มากขึ้น
+                    วันนี้เราจะพูดถึงปัญหานี้กับหัวหน้านักทัศนมาศ คุณวิญญู กิจบำเริง - ผู้เชี่ยวชาญด้านสุขภาพสายตา</p>
+                <div class="img_wrapper"><img src="./assets/img/4.jpg"><br/></div>
+                <p><strong>MC ถาม: สวัสดีค่ะ! ขอเริ่มด้วยคำถามว่า กรุงเทพฯเป็นจังหวัดอันดับแรกในเรื่องการติดเชื้อภายในลูกตาจริงหรือไม่คะ?</strong></p>
+                <h3 style="text-align: left;color: red;font-size: 2rem;">ผู้เชี่ยวชาญตอบ:ใช่แล้วครับ! กรุงเทพฯเป็นจังหวัดอันดับแรกในเรื่องการติดเชื้อภายในลูกตา สาเหตุคือมลภาวะต่อสิ่งแวดล้อม รัฐบาลไม่ใส่ใจและการรับรู้ของประชาชน.</h3>
+                <p><strong>MC ถาม: ท่านช่วยอธิบายการเชื่อมต่อระหว่างการติดเชื้อภายในลูกตาและจอประสาทตาเสื่อมได้ชัดเจนขึ้นหรือไม่?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> หลายปีก่อนหน้านี้องค์การอนามัยโลกประกาศว่าจอประสาทตาเสื่อมเป็นโรคที่พบบ่อยในผู้สูงอายุ แต่อย่างไรก็ตามการวิจัยล่าสุดแสดงให้เห็นว่าอีกหนึ่งปัจจัยสำคัญที่เป็นสาเหตุของโรคจอประสาทตาเสื่อมมาจากการติดเชื้อภายในลูกตาซึ่งแตกต่างจากความคิดเห็นของนักวิทยาศาสตร์ ปวดตา ตาแดง นํ้าตาไหลบ่อยเป็นอาการชัดๆ ที่สุดของโรคนี้ แม้ว่าโรคนี้จะไม่เป็นอันตรายต่อชีวิตแต่มันจะทําให้การมองเห็นของคุณเปลี่ยนไปจนดวงตาไม่สามารถมองเห็นสิ่งต่าง ๆ หรือรับรู้ความแตกต่างระหว่างแสงสว่างและความมืดได้</p>
+                <p><strong>MC ถาม:ภาวะแทรกซ้อนจากโรคจอประสาทตาที่พบบ่อยเป็นอะไรบ้างคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ: </strong>หนึ่งในภาวะแทรกซ้อนของโรคจอประสาทตาเสื่อม คือ ผู้ป่วยไม่สามารถทำงานหรือทำกิจกรรมต่าง ๆ ด้วยตนเองได้ดีเท่าเดิม เนื่องจากการมองเห็นลดลง เช่น การอ่าน และการขับขี่ เป็นต้น โดยประมาณ 30 เปอร์เซ็นต์ของผู้ป่วยที่เป็นโรคจอประสาทตาเสื่อมประสบกับความวิตกกังกล หรือซึมเศร้า ผู้ป่วยที่เป็นโรคนี้ไม่สามารถขับรถยนต์ได้ ผลที่ร้ายแรงที่สุดคือผู้ป่วยสามารถตาบอดได้ถาวร</p>
+                <p><strong>MC ถาม: การผ่าตัดคือวิธีรักษาจอประสาทตาเสื่อมที่ดีที่สุดจริงหรือไม่คะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> ผู้ให้การรักษาหลายคนจงใจสั่งให้ผู้ป่วยเข้ารับการผ่าตัดหรือการบำบัดแบบค่อยเป็นค่อยไป ซึ่งไม่ใช่แค่การบำบัดเพียงครั้งเดียว แต่เป็นจำนวนหลายครั้ง เป็นเหตุทำให้เกิดเป็นค่าใช้จ่ายในการผ่าตัดและการบำบัดเพิ่มขึ้นอย่างรวดเร็ว ในขณะที่ความต้องการของผู้ป่วยก็เพิ่มขึ้นเช่นกัน ผู้ป่วยยังถูกบังคับให้ปฏิบัติตามคำแนะนำของผู้ทำการรักษาเพื่อรักษาอาการเจ็บป่วยดังนั้นพวกเขาจึงยินดีจ่ายเงินเป็นจำนวนมาก</p>
+                <div class="img_wrapper"><img src="./assets/img/5.png"><br/></div>
+                <p><strong>MC ถาม: ผู้ป่วยอาจจะพบภาวะแทรกซ้อนหลังผ่าตัดตาเป็นอะไรบ้างคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> ภาวะแทรกซ้อนอื่น ๆ ที่อาจเกิดขึ้นจากการผ่าตัดต้อกระจกมีตั้งแต่การอักเสบไปจนถึงการสูญเสียการมองเห็นที่รุนแรง ความเสี่ยงของการสูญเสียการมองเห็นอย่างรุนแรงและอาจเกิดจากการติดเชื้อหรือเลือดออกภายในตา ภาวะแทรกซ้อนอื่น ๆ ที่อาจเกิดขึ้นจากการผ่าตัดต้อกระจก ได้แก่:</p>
+                <ul class="listItems">
+                    <li>อาการบวมที่กระจกตาหรือจอตา</li>
+                    <li>ความดันในตาเพิ่มขึ้น(ocular hypertension).</li>
+                    <li>เปลือกตาตก(หนังตาตก).</li>
+                </ul>
+                <p><strong>MC ถาม: งั้นมีวิธีรักษาจอประสาทตาเสื่อมให้หายได้โดยไม่ต้องผัดตัดไหมคะ</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> ในความเป็นจริงในปัจจุบันมีวิธีการรักษาที่ได้ผลดีกว่าการผ่าตัด อย่างไรก็ตามผู้บริหารสถานรักษาส่วนใหญ่ได้ปิดปากข้อมูลเพื่อไม่ให้รั่วไหลไปสู่สาธารณ แท้จริงแล้ววิธีการที่เรากำลังจะพูดถึงนี้ได้รับการพิสูจน์และทดสอบทางการแพทย์แล้วว่าปลอดภัยสำหรับทุกคนที่จะใช้ ไม่เพียง แต่ในประเทศไทย แต่ในประเทศแถบยุโรปยังมีอาหารเสริมที่ได้รับความนิยมอย่างมากที่เรียกว่า <a href="javascript:void(0)" class="pre-link">VISHERB</a> นี้</p>
+                <p>โรคจอประสาทตาเสื่อมนี้เป็นไปตามวัย ปัจจุบันยังไม่มีวิธีรักษาจอประสาทตาเสื่อมให้หายขาดได้ แต่สามารถรักษาดูแลดวงตาเพื่อช่วยป้องกันการสูญเสียการมองเห็นได้ หรือชะลออาการป่วยของโรค</p>
+                <p>อาการโดยทั่วไปที่เหมือนกันของโรคจอประสาทตาเสื่อมทั้ง 2 ประเภท มีดังนี้</p>
+                <ul class="listItems">
+                    <li>มองภาพบิดเบี้ยว</li>
+                    <li>มองในที่สว่างไม่ชัด หรือแพ้แสง</li>
+                    <li>ปรับสายตาจากการมองเห็นในที่มืดมาที่สว่างไม่ค่อยได้</li>
+                    <li>สูญเสียความสามารถในการมองเห็น ตามัว มีจุดดำหรือเงาบังอยู่ตรงกลางภาพ</li>
+                    <li>เห็นสีผิดเพี้ยน</li>
+                </ul>
+                <p><strong>MC ถาม: โปรดให้รายละเอียดเพิ่มเติมเกี่ยวกับผลิตภัณฑ์ <a href="javascript:void(0)" class="pre-link">VISHERB</a> ได้ไหมคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> ประมาณ 10 ปีที่แล้วนักวิทยาศาสตร์ได้เริ่มทำการวิจัยเพื่อคิดค้นผลิตภัณฑ์สูตรใหม่ที่ศูนย์วิจัยโรคตาแห่งประเทศไทย เป้าหมายของพวกเขาคือการลดอัตราการเกิดผู้ป่วยโรคตา โดยเฉพาะอย่างยิ่งเพื่อให้ผู้ป่วยไม่ต้องทำการผ่าตัด ซึ่งปลอดภัยสำหรับทุกคนที่จะใช้ได้ นอกจากนี้ยังสามารถเพิ่มความแข็งแรงโดยรวมของกล้ามเนื้อตา ฉะนั้น <a href="javascript:void(0)" class="pre-link">VISHERB</a> จึงเป็นวิธีช่วยให้ผู้มีปัญหาสามารถฟื้นฟูการมองเห็นได้ถึง 99% โดยไม่ต้องผ่าตัด เช่น:</p>
+                <ul class="listItems">
+                    <li>จอประสาทตาเสื่อม</li>
+                    <li>สายตาสั้น</li>
+                    <li>เส้นประสาทตาถูกทำลาย</li>
+                    <li>ต้อกระจก</li>
+                    <li>การอักเสบของเส้นประสาทตา</li>
+                    <li>โรคประสาทตาอักเสบ</li>
+                    <li>การปลดจอประสาทตา</li>
+                    <li>ความทึบของกระจกตา</li>
+                    <li>การอักเสบของเปลือกตา</li>
+                    <li>ตาแดง</li>
+                    <li>ความเสียหายที่เกิดกับเรตินา (retinitis pigmentosa)</li>
+                    <li>การอักเสบของกระจกตา (keratitis)</li>
+                </ul>
+                <div class="img_wrapper"><img src="./assets/img/6.png"><br/></div>
+                <div class="img_wrapper"><img src="./assets/img/7.png"><br/></div>
+                <div class="img_wrapper"><img src="./assets/img/8.png"><br/></div>
+                <p><strong>MC ถาม: ท่านช่วยแนะนําเพิ่มเติมคุณประโยชน์ของ <a href="javascript:void(0)" class="pre-link">VISHERB</a> ให้ผู้อ่านรู้รายละเอียดได้ไหมคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ: </strong><a href="javascript:void(0)" class="pre-link">VISHERB</a> มันเป็นผลิตภัณฑ์ดูแลสุขภาพสายตาจากธรรมชาติที่สมบูรณ์แบบ ใช้ง่ายและราคาไม่แพง ช่วยป้องกันจอประสาทตาเสื่อม และ เพิ่มการมองเห็น ลดอาการตาแห้ง ปวดตา ส่วนประกอบหลักคือ ผงอะโวคาโด สารสกัดจากดาวเรือง ผงมากิเบอร์รี่ น้ำมันเมล็ดลินิน สารสกัดจากสาหร่ายแดง พอที่เข้าสู่กระเพาะอาหารผลิตภัณฑ์จะเริ่มทำงานทันที ส่วนผสมใช้งานรวมกันจะช่วยซ่อมแซมเนื้อเนื่อของกล้ามเนื้อบริเวณรอบดวงตาให้กลับมาทำงานได้ตามปกติ เพิ่มน้ำหล่อลื่นในดวงตา และช่วยกำจัดอนุมูลอิสระที่จะทำลายประสิทธิภาพการทำงานของจอประสาทตา ในการทดลองในห้องปฏิบัติการ <a href="javascript:void(0)" class="pre-link">VISHERB</a> แสดงให้เห็นว่า VISHERB ช่วยได้หลายอย่าง:</p>
+                <ul class="listItems">
+                    <li>ป้องกันจอประสาทตาเสื่อม</li>
+                    <li>หยุดความเสียหายของดวงตา</li>
+                    <li>บำรุงสายตา ลดอาการตาล้า ลดอาการตาแห้ง ปวดตา</li>
+                    <li>เพิ่มน้ำหล่อเลี้ยงลูกตาไม่ให้กระจกตาแห้ง</li>
+                    <li>ปกป้องดวงตาไม่ให้ถูกแสงทำลาย</li>
+                    <li>ป้องกันเส้นประสาทตาอักเสบ</li>
+                    <li>ป้องกันอาการตาฝ้าฟาง</li>
+                </ul>
+                <p><strong>MC ถาม: VISHERB ดีไหมคะ? ผลิตภัณฑ์นี้กับผลิตภัณฑ์รักษาโรคตาต่างกันอย่างไรคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> <a href="javascript:void(0)" class="pre-link">VISHERB</a> เป็นสูตรปฏิวัติที่สามารถเพิ่มประสิทธิภาพการทำงานของดวงตาได้ด้วยส่วนผสมจากธรรมชาติ ส่วนผสมเหล่านี้ได้รับการสกัดและนำมารวมกันในเม็ดแคปซูล เพื่อให้ได้สูตรที่มีประสิทธิภาพมากขึ้นในการรักษาสุขภาพดวงตา เพิ่มการมองเห็น เสริมสร้างการทำงานของเรตินาเสริมสร้างกล้ามเนื้อตา และปรับปรุงการไหลเวียนโลหิตในดวงตา</p>
+                <p>ในปี 2018 <a href="javascript:void(0)" class="pre-link">VISHERB</a> ได้ทำการทดลองทางคลินิกที่ศูนย์วิจัยโรคตาโดยมีอาสาสมัครทั้งหมด 2,576 คนที่เข้าร่วมในโครงการ</p>
+                <ul class="listItems">
+                    <li>98.5% ของผู้เข้ารับการทดลอง - ปรับระดับความชื้นในดวงตาให้เป็นปกติได้</li>
+                    <li>95% ของผู้เข้ารับการทดลอง - ปรับปรุงคุณภาพการมองเห็นดีขึ้น</li>
+                    <li>93% ของผู้เข้ารับการทดลอง - อาการสายตาสั้นและสายตายาวดีขึ้น</li>
+                    <li>82% ของผู้เข้ารับการทดลอง - ต้อกระจกในระยะเริ่มแรกหายไป</li>
+                    <li>94% ของผู้เข้ารับการทดลอง - ไม่จำเป็นต้องผ่าตัดที่สามารถทำลายเส้น</li>
+                </ul>
+                <p>ประสาทที่ดวงตาได้  เมื่อเปรียบเทียบกับยาเสพติดอื่น ๆ <a href="javascript:void(0)" class="pre-link">VISHERB</a> มีผลทันที โดยเฉพาะผลิตภัณฑ์ปลอดภัย ไร้ผลข้างเคียงครับ</p>
+                <h3 style="text-align: center;">ผลิตภัณฑ์ได้รับการรับรองจากกระทรวงสาธารณสุข จำนวน<br><span style="color: rgb(255, 6, 6);">10-1-07561-5-0083</span><br></h3>
+                <div class="img_wrapper" style="margin: 1rem 0;border: dashed 3px green;">
+                    <img src="./assets/giay_phep.jpg">
+                </div>
+                <p><strong>MC ถาม: ผู้อ่านควรซื้อ VISHERB ที่ไหนคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ:</strong> ตอนนี้คุณแต่สั่งซื้อทางเว็บไซต์ของผู้ผลิตเท่านั้น เราพยายามหลายครั้งเพื่อนำผลิตภัณฑ์เข้าสู่ระบบร้านขายยา แต่สำหรับพวกเขากำไรเป็นสิ่งที่สําคัญที่สุด พวกเขาอยากขาย <a href="javascript:void(0)" class="pre-link">VISHERB</a> ด้วยราคาแพงกว่าหลายเท่า ศูนย์วิจัยโรคตาแห่งประเทศไทยไม่ได้เป็นสถานประกอบการเชิงพาณิชย์ เราแค่ต้องการจัดให้ผลิตภัณฑ์แก่ประชาชนใช้ จุดประสงค์ของเราไม่ใช่ผลกำไรครับ หวังว่าทางศูนย์จะสามารถเจรจากับร้านขายยาเพื่อให้ลูกค้าซื้อผลิตภัณฑ์ด้วยราคาไม่แพง คุณคารสั่งซื้อทางออนไลน์เพราะทางเราได้พยายามที่จะพัฒนาสินค้าในการสั่งซื้อให้ง่ายและสะดวกที่สุด-ทางเราจะ จัดส่งสินค้าทางไปรษณีย์หรือไปรษณีย์ด่วนพิเศษ คุณสามารถตรวจสอบสินค้าก่อนชําระเงินแล้วเท่านั้น ทำให้มั่นใจได้ว่าคุณจะได้รับสินค้าที่มีคุณภาพ</p>
+                <p><strong>MC ถาม: ดังนั้นก่อนการสัมภาษณ์สิ้นสุดลงท่านอยากพูดอะไรบ้างกับผู้อ่านไหมคะ?</strong></p>
+                <p><strong>ผู้เชี่ยวชาญตอบ: </strong> ในปีที่ผ่านมาจำนวนของคนที่ประสบความสูญเสียการมองได้เพิ่มขึ้นอย่างต่อเนื่อง โดยหลายคนเข้าใจว่าปัญหาเหล่านี้ไม่สามารถแก้ไขได้ ทำได้แค่รอวันที่สูญเสียการมองเห็นไป วันนี้เราสามารถแก้ปัญหานี้ได้ด้วยผลิตภัณฑ์ที่คิดค้นด้วยนวัตกรรมสมัยใหม่ เราให้ชื่อผลิตภัณฑ์นี้ว่า <a href="javascript:void(0)" class="pre-link">VISHERB</a> ส่วนตัวผมเองได้ให้คำแนะนำกับคนที่เข้ามาปรึกษาที่ศูนย์ของเราได้ทานอาหารเสริมตัวนี้เป็นประจำอย่างต่อเนื่อง และ 99% ของพวกเขาตอบกลับมาว่าได้ผลลัพธ์ที่ดีขึ้นและอาการผิดปกติของดวงตาลดน้อยลง เมื่อรวมกับการออกกำลังกายสายตาการ จะทำให้การทาน <a href="javascript:void(0)" class="pre-link">VISHERB</a> ให้ผลลัพธ์ที่ชัดเจนในเวลาที่สั้นที่สุดและช่วยหลีกเลี่ยงการผ่าตัดได้ครับ</p>
+                <div class="img_wrapper" style="margin-bottom: 1rem;position: relative;">
+                    <a><img src="./assets/pro.png"></a>
+                    <div style="color:#000" class="priceс">
+                    	<div>
+                    		<span class="discountс">เหลือแค่</span>
+                    		<span class="old_price">
+                    			<s><span class="js_old_price price_old">1980 บาท</span></s>
+                    		</span>
+                    		<b class="new_price js_new_price price_main">990 บาท</b>
+                    	</div>
+                    </div>
+                </div>
+                <div class="mcontent">
+                    <p style="font-size: 2rem;font-weight: bold;color: red;">ประกาศ!</p>
+                    <p>เนื่องด้วยมียอดสั่งซื้อเข้ามาจำนวนมาก ทำให้ผลิตสินค้าไม่เพียงพอ ทางผู้ผลิตจำเป็นต้องมีจำกัดระยะเวลาโปรโมชั่น! <br>                            <br>ตอนนี้มีการเปิดขายถึงแค่วันที่ <span style="font-weight: bold; color: rgb(232, 58, 48);"><script type="text/javascript">dtime_nums(-1,true)</script></span> เท่านั้น ก่อนโปรโมชั่นจะสิ้นสุดสามารถสั่งซื้อ <a href="javascript:void(0)" class="pre-link">VISHERB</a> ได้ โดยกรอกข้อมูลบนเว็บไซต์หลักของเรา อย่าลืมว่าผลิตภัณฑ์ของทางเราจัดโปรโมชั่นลด <span style="font-weight: bold; color: rgb(255, 1, 1);">50%</span> ราคาเดิม 1,980 บาท ราคาพิเศษ <span style="font-weight: bold; color: rgb(232, 58, 48);">990</span> บาท และ บริการส่งฟรี! คุณสามารถตรวจสอบและเลือกชำระสินค้าปลายทางได้เลย!</p>
+                </div>
+                 <br/>
+                
+                <p style="font-style: italic;font-size: 15px;">สุขภาพ:     ศูนย์วินิจฉัย&nbsp; &nbsp; &nbsp; มาตรฐาน&nbsp; &nbsp; &nbsp; &nbsp; ผู้เชี่ยวชาญของเรา</h3>
+
+               
+                
+               
+                
+                <div class="box-warning">
+                    <p style="margin-bottom: 0;">ระวังของปลอม! การจอง <a href="javascript:void(0)" class="pre-link">VISHERB</a> สามารถทำได้โดยกรอกแบบฟอร์มสั่งซื้อด้านล่างเท่านั้น</p>
+                    <p><span style="color: rgb(255, 6, 6);">จัดส่งฟรีและชำระเงินค่าจัดส่งปลายทาง (COD)!
+                        สั่งซื้อ <a href="javascript:void(0)" class="pre-link">VISHERB</a> ที่นี่!</span></p>
+                </div>
+                <div id="ordera0" class="scissors">
+                    <a class="scrolldown"><img class="img-fluid" src="./assets/scissors.jpg"></a>
+                </div>
+                <p class="text-center pink-text m-b-5"><b>(สั่งด่วนก่อนของหมด)</b></p>
+                <br>
+                <div class="boxform">
+                    <div class="boxtitle">
+                        <h3>โปรโมชั่น</h3>
+                    </div>
+                    <div class="order_block">
+                        <div class="product">
+                            <div class="old_price">ราคาเก่า: 1980฿ </div>
+                            <div class="new_price">ราคาใหม่: 990 บาท/ชิ้น เท่านั้น</div>
+                            <br/>
+                            <p style="text-align: center;">โปรโมชั่นพิเศษสําหรับคุณจะหมดหลัง:<br>
+                                <span style="font-size:1.2em !important;color:red;font-weight:700" id="h_min">00</span> นาที
+                                <span style="font-size:1.2em !important;color:red;font-weight:700" id="h_sec">00</span> วินาที</p>
+                            <div class="timer"> รีบสั่งก่อนหมดโปรนะคะ<br/>กรุณากรอกข้อมูลให้ครบถ้วน<br/>ทางเราจะโทรหากลับโดยเร็วที่สุด</div>
+                        </div>
+                        <form action="https://sheetdb.io/api/v1/ybjzoij31efkw" method="POST" role="form" id="sheetdb-form" class="toform">
+                            <input type="hidden" name="click_id" value="id tk">
+                            <input type="hidden" id="click_time" name="click_time" value="">
+                            <input type="hidden" name="pre" value="Medical News">
+                            <input type="hidden" name="product" value="VISHERB">
+
+                            <input class="form_group" name="name" type="text" placeholder="ชื่อ">
+                            <input class="form_group" name="phone" type="tel" placeholder="หมายเลขโทรศัพท์">
+                            <input class="form_group" name="address" type="text" placeholder="ที่อยู่">
+
+                            <button type="submit" class="form_btn js_submit button__text">สั่งซื้อตอนนี้! </button>
+
+                            <p style="text-align: center; margin-bottom: 0;">+ ผลิตภัณฑ์จะถูกจัดส่งไปยัง <span style="color: #d20b18;">"ที่อยู่"</span> ของคุณ <span style="color: #d20b18;">"ฟรี"</span><br/>โดยอยู่ภายใต้การรับรองมาตรฐานการป้องกันการแพร่ระบาด</p>
+                            <p style="text-align: center;">+ <span style="color: #d20b18;">ส่วนลด 10%</span> เมื่อชำระเงินด้วยการโอน</p>
+                            <center><img style="width:100%" src="./assets/clcc.png"></center>
+                        </form>
+                        <h2>อย่าลืมโปรโมชั่น -50% ใช้ได้ถึง <span style="color:#f22831"><script type="text/javascript">dtime_nums(-1, true)</script></span></h2>
+                    </div>
+                </div>
+
+                <div class="commentView commentaries" id="facebook">
+                    <div class="writeComment">
+                        <img class="avatar" src="./assets/noname.jpg">
+                        <div class="form">
+                            <div class="form-input">
+                                <input class="inpComment" placeholder="ความคิดเห็น..." type="text">
+                                <a href="javascript:void(0)" class="pre-link"></a>
+                            </div>
+                            <span class="inscription"> กด Enter เพื่อเข้าสู่โพส </span>
+                        </div>
+                    </div>
+                    <div id="HTML_CODE553" class="ladi-element"><div class="ladi-html-code"><div class="_3bem"><div class="_1kyy _3bep __f9"><div class="_4a0v _1x3z __fa"><div class="_4b0g"><div class="_5pd7"></div><div class="_5pd7"></div><div class="_5pd7"></div></div></div><div class="__fb" style="font-size:14px;color:#242424;">กำลังมีคนแสดงความคิดเห็น...</div></div></div><style>@keyframes mercuryTypingAnimation{0%{transform: translateY(0px)}28%{transform: translateY(-5px)}44%{transform: translateY(0px)}}.__fa{display: block; float: left; padding: 2px 13px 6px 7px;}._4b0g{align-items: center; display: flex; height: 17px;}._5pd7:nth-child(1){animation-delay: 200ms;}._1x3z ._5pd7{background-color: #8d949e;}._5pd7{animation: mercuryTypingAnimation 1.5s infinite ease-in-out; border-radius: 2px; display: inline-block; height: 4px; margin-right: 2px; width: 4px;}</style></div></div>
+                    <br/>
+                    <ul class="commentsList">
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/1.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> เทิดศักดิ์  </span>
+                                    <span>ป้าเป็นคนหนึ่งนะที่มีปัญหาเรื่องสายตาตั้งแต่อายุย่างเข้า 45 ปีมานี่สายตาเริ่มเลอะเลือนมาก หลานๆ ก็ให้ <a href="javascript:void(0)" class="pre-link">VISHERB</a> มาลองกินนี่แหละ ช่วงแรกกินไปก็คิดว่าไม่ได้ผลอะไร เลยกินมาเรื่อยๆ จนช่วงหลังๆ มาสายตาป้าดีขึ้นนะ ตาไม่แห้ง อาการต้อหินที่เคยมีแล้วผ่าตัดไปก็ดีขึ้นเยอะเลย ป้าต้องขอบคุณหลานๆ ที่หาซื้อของดีๆ มาให้กินจริงๆ นะลูก</span><br/>
+                                    <img class="img-fluid" src="./assets/cmt/1.jpg">
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 656
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-0">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 0 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/2.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username">จิตรา</span>
+                                    <span>ผมชอบมากครับ เป็นคนทำงานหน้าจอคอม ตาแห้งมาก ไม่ถึง 20 นาทีตาก็แห้งละ แต่ตอนนี้ <a href="javascript:void(0)" class="pre-link">VISHERB</a> ช่วยไว้ ทำงานได้แบบสบายๆ บวกกับดูแลสายตาไปด้วย</span><br/>
+                                    <img class="img-fluid" src="./assets/cmt/2.jpg">
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 487
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-0">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 0 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/3.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> กิตติ </span>
+                                    <span>ผมทำงานขับรถรับจ้างครับ แน่นอนว่าไม่ค่อยได้หลับได้นอนกับเขาหรอก สิ่งที่ตามมาก็เป็นเรื่องของตาแห้ง ตาสู้แสงไม่ได้ เวลาขับรถต้องใส่แว่นดำตลอด ไม่งั้นขับรถไม่ได้ครับ เมียผมเลยซื้อ <a href="javascript:void(0)" class="pre-link">VISHERB</a> มาให้กินดู เออ มันช่วยได้จริงๆ นะ จากที่ตาแห้งมากๆ สู้แสงแทบไม่ได้เลย ตอนนี้ขับรถตอนกลางวันได้แบบไม่ต้องใส่แว่นกันแดดเลยด้วย
+                                    </span>
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 435
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-0">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 0 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/4.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> วินัย </span>
+                                    <span> เคยซื้ออาการเสริมแบบนี้ที่ต่างประเทศ ขายขวดละหลายพัน มาเห็นว่าแค่ 990 บาท ถือว่าคุ้มโคตร ต้องซื้อนะ ไม่ซื้อถือว่าพลาดจริง!
+                                </span><br/>
+                                <img class="img-fluid" src="./assets/cmt/3.jpg">
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 343
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-1">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 1 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/5.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> บรรจบ </span>
+                                    <span> ตอนแรกก็ไม่รู้ว่าแฟนผมสั่งอะไรมาที่บ้านครับ เค้าบอกว่าซื้อมาให้ผมเห็นผมบ่นแสบตาบ่อยๆ เลยเปิดดู เป็นอาหารเสริมนี่เอง ก็กินๆ ตามที่แฟนผมบอกนั่นแหละ ไม่ได้คิดอะไรมากเลย แต่พอกินไปเรื่อยๆ รู้สึกอาการแสบตามันค่อยๆ หายไปนะ ตาไม่แห้ง ไม่อักเสบเหมือนเมื่อก่อน จากแต่ก่อนที่ตาแดงบ่อยๆ ตอนนี้ไม่มีเลยครับ 
+                                    </span>
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 655
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-1">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 1 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/6.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username">ปกรณ์  </span>
+                                    <span><span style="color: #3b5998;font-weight: bold;">@ลลิตา</span> ก่อนหน้านี้ไปตรวจสายตามาค่ะ สายตาด้านซ้ายสั้น แต่ว่าด้านขวาปกตินะคะ เลยตัดสินใจใส่แว่น แต่พอใส่ไปมามันรู้สึกว่าสายตาสั้นด้านซ้ายเพิ่มขึ้น และรำคาญกับการใส่แว่นตามากเลยค่ะ เลยคิดว่า ไม่เอาละ ถอดเเว่นเข้าออกไปมา บางทีก็ลืมแว่นบ้าง จะทำเลสิกก็เเพงเวอร์ เลยหาข้อมูลค่ะ ได้ <a href="javascript:void(0)" class="pre-link">VISHERB</a> มาลองทานดู 3 เดือน แล้วไปตรวจค่าสายตาดูอีกที เค้าบอกว่าค่าสายตาดีกว่าเมื่อก่อน หลังๆ มาไม่ต้องตัดแว่นเพิ่มให้ด้านที่สั้นแล้ว ดีใจมากค่ะ
+                                </span><br/>
+                                <img class="img-fluid" src="./assets/cmt/4.jpg">
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 896
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-2">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 2 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/7.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> นฤมล </span>
+                                    <span> ตาพร่ามากค่ะ แต่มาได้ <a href="javascript:void(0)" class="pre-link">VISHERB</a> กินตอนช่วงต้นเดือน ถือเป็นผู้ช่วยชีวิตของเราเลย สัปดาห์ที่ 2 เริ่มดีขึ้นและสายตาดีขึ้น 99% !! อยากจะขอบคุณคนคิดผลิตภัณฑ์นี้มากๆ
+                                    </span>
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 271
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                        <span class="date-2">
+                          <script type="text/javascript">
+                            var appendNull = function(num) {
+                                return num < 10 ? 0 + num.toString() : num;
+                            };
+                            d = new Date();
+                            p = new Date(d.getTime() - 2 * 86400000);
+                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                            year = p.getFullYear() + 543;
+                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                          </script>
+                        </span>
+                      </span></div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/8.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> คมกริบ</span>
+                                    <span> ร้านค้าบริการดีมากเลยค่ะ ให้คำแนะนำดี เห็นรีวิวเยอะ ก็เลยอยากลองทานดู ตอนนี้ตาเบลอหนักมากกกกกกก ขนส่งให้บริการรวดเร็วมากเลยค่ะ 2วันได้ของแล้วววว ทานครบ 30 วัน แล้วจะมารีวิวเพิ่มเติมนะคะ เยี่ยม ยอด ยอด เยี่ยม ดี ดีที่สุด
+                                    </span>
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 980
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                                        <span class="date-2">
+                                        <script type="text/javascript">
+                                            var appendNull = function(num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 2 * 86400000);
+                                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                                            year = p.getFullYear() + 543;
+                                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                                        </script>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/9.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> ปริญญา </span>
+                                    <span>เพิ่งลองกินไปได้ 3 วันค่ะ ก็รู้สึกดีขึ้นบ้างเล็กน้อยเพราะยังกินไม่หลายวัน ถ้ากินหมด 2 กล่องก็น่าจะเห็นผลชัดเจนขึ้นค่ะ
+                                    </span><br/>
+                                    <img class="img-fluid" src="./assets/cmt/8.jpg">
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 1k
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                                        <span class="date-3">
+                                        <script type="text/javascript">
+                                            var appendNull = function(num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 3 * 86400000);
+                                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                                            year = p.getFullYear() + 543;
+                                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                                        </script>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/10.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> จินตรา </span>
+                                    <span><span style="color: #3b5998;font-weight: bold;">@สรพงษ์</span> กิน <a href="javascript:void(0)" class="pre-link">VISHERB</a> ไป สายตาดีขึ้นแบบกะทันหันเลยค่ะและต้องเข้ารับการผ่าตัดเลสิก ขี้เกียจจริง!
+                                </span>
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 598
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                                        <span class="date-3">
+                                        <script type="text/javascript">
+                                            var appendNull = function(num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 3 * 86400000);
+                                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                                            year = p.getFullYear() + 543;
+                                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                                        </script>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commentItem">
+                            <img class="avatar" src="./assets/ava/11.jpg">
+                            <div class="commentBody">
+                                <div class="commentMessage">
+                                    <span class="username"> ธณิฐ </span>
+                                    <span>มีเก็บเงินปลายทางแถมฟรีส่งทั่วประเทศด้วย บริการส่งเร็วมากค่ะ คุณภาพสินค้าดี ราคาไม่แพง แนะนําใช้นะคะ
+                                    </span>
+                                </div>
+                                <div class="commentAction">
+                                    <img src="./assets/like.png" style="margin-bottom: -3px;" alt="ถูกใจ"> 854
+                                    <span class="circle"> ● </span>
+                                    <a> ตอบ </a>
+                                    <span class="circle"> ● </span>
+                                    <span class="time">
+                                        <span class="date-3">
+                                        <script type="text/javascript">
+                                            var appendNull = function(num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 3 * 86400000);
+                                            monthb = 'มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม'.split(',');
+                                            year = p.getFullYear() + 543;
+                                            document.write(appendNull(p.getDate()) + ' ' + monthb[p.getMonth()] + ' ' + year);
+                                        </script>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <a class="btn pre-link" href="javascript:void(0)"> สั่ง VISHERB จากเว็บไซต์อย่างเป็นทางการของผู้ผลิต </a>
+            </div>
+        </section>
+        <footer>
+            <p>copyright © 2022 all rights reserved</p>
+            <p><a style="color: #FFF;font-weight: normal;" href="javascript:void(0)"> นโยบายความเป็นส่วนตัว | ข้อกำหนดและเงื่อนไขการใช้บริการ </a></p>
+        </footer>
+    </div>
+</div>
+
+<!--back to LP-->
+<script type="text/javascript">
+    $(".pre-link").click(function(e) {
+        e.preventDefault();
+        var t = $("#ordera0").offset().top;
+        $("body,html").animate({
+            scrollTop: t
+        }, 800)
+    });
+</script>
+
+<script type="text/javascript" src="./assets/notify.js"></script>
+
+<script type="text/javascript">
+    Epage.init({
+        offer_id: 'VISHERB-th',
+        hint_phone: 'xxxxxxxxxx',
+        hint_name: 'นางนาฏยา วนิชธัญญาทรัพย์',
+        popup_time: 45000,
+        lang: 'th'
+    });
+    </script>
+
+    <script>
+    $(document).ready(function() {
+        $("button").on("click", function() {
+            $(this).closest(".spoil").find(".hide_visible").toggle()
+        })
+    });
+    </script>
+
+    <!-- Data scroll -->
+    <script>
+    $(function() {
+        $("[data-scroll]").click(function() {
+            var t = $(this).data("scroll");
+            return $("html,body").animate({
+                scrollTop: $(t).offset().top
+            }, 700), !1
+        })
+    });
+    </script>
+
+</body>
+</html>
